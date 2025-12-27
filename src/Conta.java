@@ -1,10 +1,10 @@
 public class Conta {
     public String nome;
-    private int id;
+    private final int id;
     private double saldo;
 
-    public Conta(int id,String nome, double saldo) {
-        this.saldo = saldo;
+    public Conta(int id,String nome, double depositoInicial) {
+        deposito(depositoInicial);
         this.id = id;
         this.nome = nome;
     }
