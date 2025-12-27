@@ -27,7 +27,7 @@ public class Conta {
     }
 
     public void deposito(double saldo) {this.saldo += saldo;}
-    public void saque(double saldo) {this.saldo -= saldo;}
+    public void saque(double saldo) {this.saldo = (this.saldo - saldo)-5;}
 
     @Override
     public String toString() {
