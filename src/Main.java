@@ -5,8 +5,9 @@ void main() {
     System.out.println("  ");
     System.out.print("Entre com o número da conta: ");
     int id = scanner.nextInt();
+    scanner.nextLine();
     System.out.print("Entre com o nome da sua conta: ");
-    String nome = scanner.next();
+    String nome = scanner.nextLine();
 
     System.out.print("Deseja incrementar uma quantia inicial? (s/n)");
     String s = scanner.next();
